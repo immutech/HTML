@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <title>HTML Entities</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width; initial-scale=1"/>
+</head>
+
+<body>
+    <img src="http://www.php-developer.org/wp-content/uploads/2009/12/html_entities.jpg/>"
+    <br /><br /><br />
+    
+    <p>To write special html characters like pointy brackets <strong>&lt; &gt;</strong> use the "html entities" listed</p>
+    <p><a href="https://www.w3schools.com/html/html_entities.asp"><strong>HERE</strong></a></p>
+    <br /><br /><br />
+    <p>Anyway, click on the hacker to go back to the index page</p>
+    <a href="/HTML/index.html"><img src="/HTML/img/anon.jpg" /></a>
+
+</body>
+</html>
