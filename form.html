@@ -16,8 +16,56 @@
     
     <form>
     
-        <input type="text" />
-    
+        <input type="text" placeholder="type something..."/>
+        <br /><br />
+        <p>This is the simplest one. It uses an "input" command</p>
+        <p>followed by the variables 'type' and 'placeholder'.</p>
+        <p>in this example type is set to text and placeholder is set to 'type something...'</p>
+        <br /><br />
+        
+        <textarea></textarea>
+        <br /><br />
+        <p>The "textarea" tag isn't self closing like the input tag, but allows for a larger area.</p>
+        <br /><br />
+        
+        <select>
+                <option>Choose one...</option>
+                <option>Ice Cream</option>
+                <option>Tiramisu</option>
+                <option>Strawberry Jelly</option>
+        </select>
+        <br /><br />
+        <p>Multiple choice forms are made by nesting "option" "/option" tags inside "select"</p>
+        <p>"/select" tags.</p>
+        <br /><br />
+        
+        <p>Choose a station...</p>
+        <input type="radio" name="music" /> DANCE
+        <input type="radio" name="music" /> CLASSICAL
+        <input type="radio" name="music" /> REGGAE
+        <input type="radio" name="music" /> JAZZ
+        <br /><br />
+        <p>By setting the input type to radio and setting the 'name' to the same value, we can</p>
+        <p>make a form like the one above...</p>
+        <br /><br />
+        
+        <p>Places I have relatives...</p>
+        <input type="checkbox" />UK
+        <input type="checkbox" />CHINA
+        <input type="checkbox" />GERMANY
+        <input type="checkbox" />US
+        <br /><br />
+        <p>To have a form where you can choose more than one answer, the input type is set to 'checkbox'</p>
+        <p>This type of tag is self closing.</p>
+        <br /><br />
+        
+        <p><strong>and finally...</strong></p>
+        <input type="submit" value="SUBMIT BUTTON" />
+        <br /><br />
+        <p>Every form needs a submit button. This is made by giving input type the value of <em>"submit"</em>.</p>
+        <p>to customize the text in the button an extra variable <em>value</em> is required. In this case I gave</p>
+        <p>assigned it a string "SUBMIT BUTTON".</p>
+        
     </form>
 
 </body>
